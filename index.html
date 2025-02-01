@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <title>Fornada Manauara</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+
+    <div class="header">
+        <img src="./img/LOGO COLOR B.png">
+        <a>EVENTOS</a>
+        <a>SERVIÇOS</a>
+        <a>CARDÁPIO</a>
+
+    </div>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/Fornada Manauara - Capa Texto.png" alt="logo Fornada Manauara" class="logo-pizzaria">
+            <br>
+            <br>
+            <div class="texto">
+                <p>Fornada Manauara - Levando uma experiência única a seu evento</p>
+                <p>Entregando pizzas de qualidade desde 2019 para nossos clientes.
+                    Levar a experiência de ter uma pizzaria
+                    em sua casa ou evento é a nossa missão.
+                    Levamos todo equipamento para tudo ser preparado com muito carinho no local. Para que seus
+                    convidados, família e amigos aproveitem um dia de pizza com muita diversão! </p>
+            </div>
+
+            <button onclick="mostrarform()">Faça a sua Reserva</button>
+        </div>
+
+        <div>
+            <img src="./img/LOGO COLOR B.png" alt="Imagem Pizzas" class="img-pizzas">
+
+        </div>
+
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./img/Fornada Manauara.MP4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5592982498509?text=Ol%C3%A1%2C%20gostaria%20de%20reservar%20uma%20data." class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link-whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" 
+          action="https://formcarry.com/s/sFOpfQFuP6n" 
+          method="post" 
+          enctype="multipart/form-data" >
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Seu Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite suas dúvidas aqui..." name="duvida"></textarea>
+        <button type="submit">Fazer sua Reserva</button>
+
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
